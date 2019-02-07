@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rounded menu</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+            <i data-fa-symbol="delete" class="fas fa-trash fa-fw"></i>
+        <svg width="500px" height="500px">
+                    <symbol id="test">
+                        <a xlink:href="https://www.google.fr" class="icon-color">
+                            <path stroke="#111" stroke-width="1" d="M250,250 l250,0 A250,250 0 0,0 466.5063509461097,125 z"/>
+                            <use xlink:href="#delete" class="icon" witdh="1.5em" height="1.5em" transform="rotate(75, 250, 250) translate(0, 41)"/>
+                        </a>
+                    </symbol>
+                    <use xlink:href="#test" class="test"/>
+                    <use xlink:href="#test" class="test" transform="rotate(-30, 250, 250)"/>
+                    <use xlink:href="#test" class="test" transform="rotate(-60, 250, 250)"/>
+                    <use xlink:href="#test" class="test" transform="rotate(-90, 250, 250)"/>
+                    <use xlink:href="#test" class="test" transform="rotate(-120, 250, 250)"/>
+                    <use xlink:href="#test" class="test" transform="rotate(-150, 250, 250)"/>
+        </svg>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+</body>
+
+</html>

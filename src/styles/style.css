@@ -1,0 +1,21 @@
+.container {
+    color: white;
+}
+
+
+.test:nth-child(even) {
+    fill: aqua;
+}
+
+.test:nth-child(odd) {
+    fill: red;
+}
+
+.icon-color {
+    color: white;
+    outline: 0;
+}
+
+.test:hover {
+    fill: black;
+}
